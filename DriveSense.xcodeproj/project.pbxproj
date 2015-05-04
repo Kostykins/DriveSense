@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DBFB8D31AF6882800FC3862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB8D21AF6882800FC3862 /* AppDelegate.swift */; };
+		8DBFB8D61AF6882800FC3862 /* DriveSense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB8D41AF6882800FC3862 /* DriveSense.xcdatamodeld */; };
+		8DBFB8D81AF6882800FC3862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB8D71AF6882800FC3862 /* ViewController.swift */; };
+		8DBFB8DB1AF6882800FC3862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBFB8D91AF6882800FC3862 /* Main.storyboard */; };
+		8DBFB8DD1AF6882800FC3862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBFB8DC1AF6882800FC3862 /* Images.xcassets */; };
+		8DBFB8E01AF6882800FC3862 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBFB8DE1AF6882800FC3862 /* LaunchScreen.xib */; };
+		8DBFB8EC1AF6882800FC3862 /* DriveSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB8EB1AF6882800FC3862 /* DriveSenseTests.swift */; };
+		8DBFB8F61AF689D500FC3862 /* MapRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB8F51AF689D500FC3862 /* MapRootViewController.swift */; };
+		8DBFB8F81AF6A4C900FC3862 /* TripRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB8F71AF6A4C900FC3862 /* TripRecorder.swift */; };
+		8DBFB8FE1AF6CDCD00FC3862 /* GPSCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB8FD1AF6CDCD00FC3862 /* GPSCoordinate.swift */; };
+		8DBFB9001AF6E9B500FC3862 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB8FF1AF6E9B500FC3862 /* MapAnnotation.swift */; };
+		8DBFB9021AF6F80D00FC3862 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB9011AF6F80D00FC3862 /* Trip.swift */; };
+		8DBFB9041AF7085300FC3862 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBFB9031AF7085300FC3862 /* FacebookSDK.framework */; };
+		8DBFB9071AF7252800FC3862 /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB9061AF7252800FC3862 /* TripsTableViewController.swift */; };
+		8DBFB9091AF7253E00FC3862 /* TripsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB9081AF7253E00FC3862 /* TripsTableViewCell.swift */; };
+		8DBFB90B1AF7C23500FC3862 /* iPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBFB90A1AF7C23500FC3862 /* iPad_Storyboard.storyboard */; };
+		8DBFB90D1AF7C4FD00FC3862 /* IPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFB90C1AF7C4FD00FC3862 /* IPadViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DBFB8E61AF6882800FC3862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DBFB8C51AF6882800FC3862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DBFB8CC1AF6882800FC3862;
+			remoteInfo = DriveSense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DBFB8CD1AF6882800FC3862 /* DriveSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBFB8D11AF6882800FC3862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBFB8D21AF6882800FC3862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DBFB8D51AF6882800FC3862 /* DriveSense.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DriveSense.xcdatamodel; sourceTree = "<group>"; };
+		8DBFB8D71AF6882800FC3862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DBFB8DA1AF6882800FC3862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DBFB8DC1AF6882800FC3862 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DBFB8DF1AF6882800FC3862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8DBFB8E51AF6882800FC3862 /* DriveSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriveSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBFB8EA1AF6882800FC3862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBFB8EB1AF6882800FC3862 /* DriveSenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveSenseTests.swift; sourceTree = "<group>"; };
+		8DBFB8F51AF689D500FC3862 /* MapRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapRootViewController.swift; sourceTree = "<group>"; };
+		8DBFB8F71AF6A4C900FC3862 /* TripRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripRecorder.swift; sourceTree = "<group>"; };
+		8DBFB8FD1AF6CDCD00FC3862 /* GPSCoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSCoordinate.swift; sourceTree = "<group>"; };
+		8DBFB8FF1AF6E9B500FC3862 /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		8DBFB9011AF6F80D00FC3862 /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		8DBFB9031AF7085300FC3862 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		8DBFB9051AF714BF00FC3862 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8DBFB9061AF7252800FC3862 /* TripsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsTableViewController.swift; sourceTree = "<group>"; };
+		8DBFB9081AF7253E00FC3862 /* TripsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsTableViewCell.swift; sourceTree = "<group>"; };
+		8DBFB90A1AF7C23500FC3862 /* iPad_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Storyboard.storyboard; sourceTree = "<group>"; };
+		8DBFB90C1AF7C4FD00FC3862 /* IPadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPadViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DBFB8CA1AF6882800FC3862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBFB9041AF7085300FC3862 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBFB8E21AF6882800FC3862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DBFB8C41AF6882800FC3862 = {
+			isa = PBXGroup;
+			children = (
+				8DBFB9031AF7085300FC3862 /* FacebookSDK.framework */,
+				8DBFB8CF1AF6882800FC3862 /* DriveSense */,
+				8DBFB8E81AF6882800FC3862 /* DriveSenseTests */,
+				8DBFB8CE1AF6882800FC3862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DBFB8CE1AF6882800FC3862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFB8CD1AF6882800FC3862 /* DriveSense.app */,
+				8DBFB8E51AF6882800FC3862 /* DriveSenseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DBFB8CF1AF6882800FC3862 /* DriveSense */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFB8D21AF6882800FC3862 /* AppDelegate.swift */,
+				8DBFB9051AF714BF00FC3862 /* Bridging-Header.h */,
+				8DBFB8D71AF6882800FC3862 /* ViewController.swift */,
+				8DBFB8D91AF6882800FC3862 /* Main.storyboard */,
+				8DBFB90A1AF7C23500FC3862 /* iPad_Storyboard.storyboard */,
+				8DBFB8F51AF689D500FC3862 /* MapRootViewController.swift */,
+				8DBFB90C1AF7C4FD00FC3862 /* IPadViewController.swift */,
+				8DBFB8FF1AF6E9B500FC3862 /* MapAnnotation.swift */,
+				8DBFB9061AF7252800FC3862 /* TripsTableViewController.swift */,
+				8DBFB9081AF7253E00FC3862 /* TripsTableViewCell.swift */,
+				8DBFB8F71AF6A4C900FC3862 /* TripRecorder.swift */,
+				8DBFB8DC1AF6882800FC3862 /* Images.xcassets */,
+				8DBFB8DE1AF6882800FC3862 /* LaunchScreen.xib */,
+				8DBFB8D41AF6882800FC3862 /* DriveSense.xcdatamodeld */,
+				8DBFB8FD1AF6CDCD00FC3862 /* GPSCoordinate.swift */,
+				8DBFB9011AF6F80D00FC3862 /* Trip.swift */,
+				8DBFB8D01AF6882800FC3862 /* Supporting Files */,
+			);
+			path = DriveSense;
+			sourceTree = "<group>";
+		};
+		8DBFB8D01AF6882800FC3862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFB8D11AF6882800FC3862 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DBFB8E81AF6882800FC3862 /* DriveSenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFB8EB1AF6882800FC3862 /* DriveSenseTests.swift */,
+				8DBFB8E91AF6882800FC3862 /* Supporting Files */,
+			);
+			path = DriveSenseTests;
+			sourceTree = "<group>";
+		};
+		8DBFB8E91AF6882800FC3862 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBFB8EA1AF6882800FC3862 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DBFB8CC1AF6882800FC3862 /* DriveSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBFB8EF1AF6882800FC3862 /* Build configuration list for PBXNativeTarget "DriveSense" */;
+			buildPhases = (
+				8DBFB8C91AF6882800FC3862 /* Sources */,
+				8DBFB8CA1AF6882800FC3862 /* Frameworks */,
+				8DBFB8CB1AF6882800FC3862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveSense;
+			productName = DriveSense;
+			productReference = 8DBFB8CD1AF6882800FC3862 /* DriveSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DBFB8E41AF6882800FC3862 /* DriveSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBFB8F21AF6882800FC3862 /* Build configuration list for PBXNativeTarget "DriveSenseTests" */;
+			buildPhases = (
+				8DBFB8E11AF6882800FC3862 /* Sources */,
+				8DBFB8E21AF6882800FC3862 /* Frameworks */,
+				8DBFB8E31AF6882800FC3862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBFB8E71AF6882800FC3862 /* PBXTargetDependency */,
+			);
+			name = DriveSenseTests;
+			productName = DriveSenseTests;
+			productReference = 8DBFB8E51AF6882800FC3862 /* DriveSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DBFB8C51AF6882800FC3862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Matt Kostelecky";
+				TargetAttributes = {
+					8DBFB8CC1AF6882800FC3862 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8DBFB8E41AF6882800FC3862 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8DBFB8CC1AF6882800FC3862;
+					};
+				};
+			};
+			buildConfigurationList = 8DBFB8C81AF6882800FC3862 /* Build configuration list for PBXProject "DriveSense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DBFB8C41AF6882800FC3862;
+			productRefGroup = 8DBFB8CE1AF6882800FC3862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DBFB8CC1AF6882800FC3862 /* DriveSense */,
+				8DBFB8E41AF6882800FC3862 /* DriveSenseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DBFB8CB1AF6882800FC3862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBFB8DB1AF6882800FC3862 /* Main.storyboard in Resources */,
+				8DBFB8E01AF6882800FC3862 /* LaunchScreen.xib in Resources */,
+				8DBFB8DD1AF6882800FC3862 /* Images.xcassets in Resources */,
+				8DBFB90B1AF7C23500FC3862 /* iPad_Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBFB8E31AF6882800FC3862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DBFB8C91AF6882800FC3862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBFB8D81AF6882800FC3862 /* ViewController.swift in Sources */,
+				8DBFB8F81AF6A4C900FC3862 /* TripRecorder.swift in Sources */,
+				8DBFB8D31AF6882800FC3862 /* AppDelegate.swift in Sources */,
+				8DBFB90D1AF7C4FD00FC3862 /* IPadViewController.swift in Sources */,
+				8DBFB8D61AF6882800FC3862 /* DriveSense.xcdatamodeld in Sources */,
+				8DBFB9091AF7253E00FC3862 /* TripsTableViewCell.swift in Sources */,
+				8DBFB9021AF6F80D00FC3862 /* Trip.swift in Sources */,
+				8DBFB8FE1AF6CDCD00FC3862 /* GPSCoordinate.swift in Sources */,
+				8DBFB9071AF7252800FC3862 /* TripsTableViewController.swift in Sources */,
+				8DBFB8F61AF689D500FC3862 /* MapRootViewController.swift in Sources */,
+				8DBFB9001AF6E9B500FC3862 /* MapAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBFB8E11AF6882800FC3862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBFB8EC1AF6882800FC3862 /* DriveSenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DBFB8E71AF6882800FC3862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DBFB8CC1AF6882800FC3862 /* DriveSense */;
+			targetProxy = 8DBFB8E61AF6882800FC3862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DBFB8D91AF6882800FC3862 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBFB8DA1AF6882800FC3862 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DBFB8DE1AF6882800FC3862 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBFB8DF1AF6882800FC3862 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DBFB8ED1AF6882800FC3862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DBFB8EE1AF6882800FC3862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DBFB8F01AF6882800FC3862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DriveSense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DriveSense/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		8DBFB8F11AF6882800FC3862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DriveSense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DriveSense/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8DBFB8F31AF6882800FC3862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DriveSenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveSense.app/DriveSense";
+			};
+			name = Debug;
+		};
+		8DBFB8F41AF6882800FC3862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DriveSenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriveSense.app/DriveSense";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DBFB8C81AF6882800FC3862 /* Build configuration list for PBXProject "DriveSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBFB8ED1AF6882800FC3862 /* Debug */,
+				8DBFB8EE1AF6882800FC3862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBFB8EF1AF6882800FC3862 /* Build configuration list for PBXNativeTarget "DriveSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBFB8F01AF6882800FC3862 /* Debug */,
+				8DBFB8F11AF6882800FC3862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBFB8F21AF6882800FC3862 /* Build configuration list for PBXNativeTarget "DriveSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBFB8F31AF6882800FC3862 /* Debug */,
+				8DBFB8F41AF6882800FC3862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DBFB8D41AF6882800FC3862 /* DriveSense.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DBFB8D51AF6882800FC3862 /* DriveSense.xcdatamodel */,
+			);
+			currentVersion = 8DBFB8D51AF6882800FC3862 /* DriveSense.xcdatamodel */;
+			path = DriveSense.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DBFB8C51AF6882800FC3862 /* Project object */;
+}

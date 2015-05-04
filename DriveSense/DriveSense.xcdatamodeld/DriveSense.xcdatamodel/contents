@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="GPSCoordinate" representedClassName="DriveSense.GPSCoordinate" syncable="YES"/>
+    <entity name="Trip" representedClassName="DriveSense.Trip" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="coordinates" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="GPSCoordinate" syncable="YES"/>
+        <relationship name="endCoordinate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GPSCoordinate" syncable="YES"/>
+        <relationship name="startCoordinate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GPSCoordinate" syncable="YES"/>
+    </entity>
+    <fetchRequest name="TripRequest" entity="Trip"/>
+    <elements>
+        <element name="GPSCoordinate" positionX="-63" positionY="-18" width="128" height="45"/>
+        <element name="Trip" positionX="-54" positionY="-9" width="128" height="120"/>
+    </elements>
+</model>
